@@ -1,0 +1,5 @@
+- Check gradiant color
+- Icons
+- paragraph small
+- images
+- utility class (button, profilepicture)
