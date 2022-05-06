@@ -1,0 +1,13 @@
+body {
+  background-color: var(--darkblack);
+  color: var(--white);
+}
+
+.profileImage {
+  border-radius: 100%;
+}
+.profileImage--border {
+}
+header .profileImage--size {
+  width: 50%;
+}
