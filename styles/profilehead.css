@@ -1,13 +1,45 @@
 body {
-  background-color: var(--darkblack);
+  background-color: purple;
   color: var(--white);
 }
-
-.profileImage {
+header {
+  margin-top: 10em;
+  background-color: var(--darkblack);
+  color: var(--white);
+  position: relative;
+}
+header .profileImage {
   border-radius: 100%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translateY(-50%);
 }
 .profileImage--border {
 }
 header .profileImage--size {
-  width: 50%;
+  width: 30%;
+}
+header .icons {
+  color: var(--white);
+  background-color: var(--lightwhite);
+}
+header .icons--message {
+  left: 95%;
+  position: absolute;
+  top: -60%;
+}
+
+header .icons--bookmark {
+  left: 95%;
+  position: absolute;
+  top: -30%;
+}
+header p,
+header h1 {
+  width: 100%;
+  text-align: center;
+}
+.profileDescription {
+  padding-top: 6em;
 }
