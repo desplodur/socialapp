@@ -82,5 +82,9 @@ h6 {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  margin-left: 1.5rem;
+}
+
+.userFeed__header {
+  display: flex;
+  justify-content: space-around;
 }
