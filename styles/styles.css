@@ -72,6 +72,7 @@ h6 {
     Posts Gökhan */
 
 .userFeed__post {
+  width: 420px;
   margin-top: 3rem;
   border-bottom-color: #ecebed;
   border-bottom-style: solid;
@@ -82,9 +83,34 @@ h6 {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
+  margin-left: 20px;
 }
 
 .userFeed__header {
   display: flex;
   justify-content: space-around;
+}
+
+.userFeed__header__h2 {
+  position: relative;
+  right: 5px;
+  bottom: 8px;
+}
+.userFeed__header__p {
+  position: relative;
+  right: 230px;
+  top: 20px;
+}
+
+.userFeed__text {
+  padding: 2rem 1rem 2rem 1rem;
+}
+.interaction {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+}
+.svg-icon-bookmark {
+  position: relative;
+  left: 10rem;
 }
