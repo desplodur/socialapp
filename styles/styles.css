@@ -67,3 +67,20 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+/*
+    Posts Gökhan */
+
+.userFeed__post {
+  margin-top: 3rem;
+  border-bottom-color: #ecebed;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+.profileImage--size {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+}
