@@ -1,23 +1,30 @@
 .navBar {
   background-color: black;
+  position: fixed;
+  padding: 1em;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 1.5em;
+  width: 100vw;
 }
 
 .navBar__icon {
-  width: 1.5em;
-  height: 1.5em;
-  color: var(--lightwhite);
+  width: 2.8em;
+  height: 2.8em;
+  color: var(--lightgray);
 }
 
 .navBar--active {
-  /*TODO change color to --white for demo on blue*/
-  color: var(--socialblue);
+  color: var(--white);
 }
 
 .navBar--specialLook {
-  width: 2em;
-  height: 2em;
+  width: 2.8em;
+  height: 2.8em;
   background: var(--gradientUse);
-
+  color: var(--white);
   border-radius: 50%;
   /* usage for more browser compatibility */
   -moz-border-radius: 50%;
