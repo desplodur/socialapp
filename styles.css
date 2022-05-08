@@ -2,7 +2,7 @@
 @import url("styles/profile.css");
 @import url("styles/alert.css");
 @import url("styles/profilehead.css");
-@import url(styles/footer.css);
+@import url("styles/footer.css");
 
 /*
   1. Use a more-intuitive box-sizing model.
@@ -14,7 +14,6 @@
 }
 
 :root {
-
   --gradient: purple;
   /*
   usage: background: var(--gradientUse);
@@ -44,6 +43,12 @@ body {
 body {
   line-height: 1.5;
   font-family: "Poppins", sans-serif;
+}
+
+main {
+  background-color: var(--darkblack);
+  /* Gibt es hier einen besseren weg?*/
+  margin-bottom: 10vh;
 }
 /*
     6. Improve media defaults
