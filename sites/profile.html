@@ -7,27 +7,77 @@
     <link rel="stylesheet" href="../styles.css" />
     <title>Profile</title>
   </head>
-  <body class="backgroundImage">
+  <body>
+    <!--Der Image tag funktioniert besser, Alternativ ist es trzdm über den body tag möglich-->
+    <img
+      class="backgroundImage"
+      src="../images/profilebackground.jpeg"
+      alt=""
+    />
     <header>
       <img
         class="profileImage profileImage--border profileImage--size"
-        src=""
+        src="../images/profilepicture.jpeg"
         alt="Profilbild"
       />
-      <img class="icons" src="" alt="MessageAlert" />
-      <img class="icons" src="" alt="Bookmark" />
-      <h1>Alex Tsimikas</h1>
-      <p>Brooklyn,NY</p>
-      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="icons icons--message">
+        <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z"
+          />
+        </svg>
+      </div>
+      <div class="icons icons--bookmark">
+        <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M17,18L12,15.82L7,18V5H17M17,3H7A2,2 0 0,0 5,5V21L12,18L19,21V5C19,3.89 18.1,3 17,3Z"
+          />
+        </svg>
+      </div>
+      <!-- Habe es nicht hinbekommen die SVG Farbe auf weiß zu ändern.. Habe eine Guide gefunden, aber diese liegt weit über meinem Verständnis
+
+      <img
+        class="icons icons--message"
+        src="../icons/email-outline.svg"
+        alt="MessageAlert"
+      />
+      <img
+        class="icons icons--bookmark"
+        src="../icons/email-outline.svg"
+        alt="Bookmark"
+      />
+      -->
+      <article class="profileDescription">
+        <h1>Alex Tsimikas</h1>
+        <p>Brooklyn,NY</p>
+        <p>Writer by Profession. Artist by Passion!</p>
+      </article>
+      <article class="profileInformation">
+        <div>
+          <p>2,467</p>
+          <p>Followers</p>
+        </div>
+        <div>
+          <p>1,589</p>
+          <p>Following</p>
+        </div>
+        <button class="basicBtn basicBtn--editProfile">Edit Profile</button>
+      </article>
+      <!----------------Sorry, cant style lists! i tried---------------
       <ul>
+        <li>2,467</li>
         <li>Followers</li>
+        <li>1,589</li>
         <li>Following</li>
-        <li><button class="basicBtn">Edit Profile</button></li>
+        <li></li>
       </ul>
+      -------->
     </header>
     <main>
       <ul>
-        <li><button class="basicBtn">Profile</button></li>
+        <li><button class="basicBtn">Posts</button></li>
         <li><button class="basicBtn">Stories</button></li>
         <li><button class="basicBtn">Liked</button></li>
         <li><button class="basicBtn">Tagged</button></li>
