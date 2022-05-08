@@ -2,20 +2,19 @@
   background-color: var(--darkblack);
   color: var(--white);
   display: flex;
-  padding: 2em 0 2em 0;
-  float: left;
   overflow: auto;
   width: 100vw;
 }
 .imageReel__wrap {
-  width: 150px;
-  padding: 0 1em 0 1em;
+  width: 80vw;
   position: relative;
   display: flex;
   justify-content: center;
+  padding: 0.5em 0.5em 0.5em 0.5em;
 }
 .imageReel__img {
   border-radius: 20px;
+  width: 100%;
 }
 
 .imageReel__wrap .profileImage {
