@@ -1,0 +1,21 @@
+/* Summary Gökhan Start */
+
+main .timeline__notification {
+  border-bottom-style: solid;
+  border-bottom-color: #ecebed;
+  border-bottom-width: 3px;
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: row;
+}
+main .timeline__h2 {
+  font-size: medium;
+  padding: 10px 10px 10px 10px;
+}
+main .icons {
+  height: 25px;
+  border-style: solid;
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+  margin-right: 10px;
+}
