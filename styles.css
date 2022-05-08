@@ -19,6 +19,7 @@
   usage: background: var(--gradientUse);
   deg is the angle for gradient 
   */
+
   --gradientUse: linear-gradient(50deg, var(--socialpink), var(--socialblue));
   --socialpink: #f62e8e;
   --socialblue: #2e8af6;

@@ -1,9 +1,13 @@
 /*
     Posts Gökhan Start */
 
+.userFeed {
+  max-width: 26em;
+  margin: 0 auto;
+}
 main .userFeed__post {
-  margin-top: 3rem;
-  border-bottom-color: #ecebed;
+  margin-top: 3em;
+  border-bottom-color: var(--lightwhite);
   border-bottom-style: solid;
   border-bottom-width: 3px;
 }
@@ -46,5 +50,9 @@ main .interaction {
   width: 2em;
   color: var(--white);
 }
-
 /* Post Gökhan Ende */
+
+.userFeed__image {
+  height: 15em;
+  width: 15em;
+}
