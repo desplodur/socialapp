@@ -5,4 +5,21 @@
 .navBar__icon {
   width: 1.5em;
   height: 1.5em;
+  color: var(--lightwhite);
+}
+
+.navBar--active {
+  /*TODO change color to --white for demo on blue*/
+  color: var(--socialblue);
+}
+
+.navBar--specialLook {
+  width: 2em;
+  height: 2em;
+  background: var(--gradientUse);
+
+  border-radius: 50%;
+  /* usage for more browser compatibility */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
 }
