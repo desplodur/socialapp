@@ -1,0 +1,33 @@
+.imageReel {
+  background-color: var(--darkblack);
+  color: var(--white);
+  display: flex;
+  padding: 2em 0 2em 0;
+  float: left;
+  overflow: auto;
+  width: 100vw;
+}
+.imageReel__wrap {
+  width: 150px;
+  padding: 0 1em 0 1em;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.imageReel__img {
+  border-radius: 20px;
+}
+
+.imageReel__wrap .profileImage {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15px;
+}
+.imageReel__wrap .profileImage--border {
+  border: 3px solid var(--gradient);
+}
+
+.imageReel__wrap .profileImage--size {
+  width: 40px;
+  height: 40px;
+}
