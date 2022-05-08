@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
-@import url("styles/profile.css");
-@import url("styles/alert.css");
-@import url("styles/profilehead.css");
-@import url(styles/footer.css);
-
+@import url(footer.css);
 /*
   1. Use a more-intuitive box-sizing model.
   2. Remove default margin
@@ -14,13 +10,7 @@
 }
 
 :root {
-
-  --gradient: purple;
-  /*
-  usage: background: var(--gradientUse);
-  deg is the angle for gradient 
-  */
-  --gradientUse: linear-gradient(50deg, var(--socialpink), var(--socialblue));
+  --gradient: rgb(246, 46, 142);
   --socialpink: #f62e8e;
   --socialblue: #2e8af6;
   --darkblack: #181a1c;
