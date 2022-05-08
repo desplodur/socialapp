@@ -1,6 +1,6 @@
 /* Summary Gökhan Start */
 
-.timeline__notification {
+main .timeline__notification {
   border-bottom-style: solid;
   border-bottom-color: #ecebed;
   border-bottom-width: 3px;
@@ -8,11 +8,11 @@
   display: flex;
   flex-direction: row;
 }
-.timeline__h2 {
+main .timeline__h2 {
   font-size: medium;
   padding: 10px 10px 10px 10px;
 }
-.icons {
+main .icons {
   height: 25px;
   border-style: solid;
   border-radius: 50%;
